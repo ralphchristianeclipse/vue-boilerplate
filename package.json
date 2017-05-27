@@ -1,0 +1,40 @@
+{
+  "name": "vue-boilerplate",
+  "version": "1.0.0",
+  "description": "> A Vue.js project",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "vue": "^2.3.3",
+    "vue-router": "^2.5.3",
+    "vuetify": "^0.12.2",
+    "vuex": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "pug": "^2.0.0-rc.1",
+    "pug-loader": "^2.3.0",
+    "purifycss-webpack": "^0.5.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-loader": "^12.2.0",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+    "c9": "webpack-dev-server --host $IP --port $PORT --open --progress --hot --colors",
+    "dev": "webpack-dev-server --port 80 --open --inline --progress --hot --colors",
+    "build": "webpack -p --progress --hide-modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
