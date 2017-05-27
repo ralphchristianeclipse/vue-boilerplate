@@ -48,8 +48,7 @@ module.exports = {
             template: './src/index.html',
             inject: true,
             chunksSortMode: 'dependency',
-            favicon: './src/assets/logo.png',
-            title: 'Cooking'
+            favicon: './src/assets/logo.png'
         }),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'vendor',
